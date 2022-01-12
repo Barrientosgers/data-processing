@@ -14,3 +14,7 @@
             x.className = "topnav";
         }
     }  
+//copyright
+let myDate = new Date();
+let myYear = myDate.getFullYear();
+document.getElementById("copyright").innerHTML = myYear;
